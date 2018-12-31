@@ -1,0 +1,45 @@
+.AboutContainer{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.AboutPhoto{
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.AboutTitle{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.AboutLine{
+    border: 2px solid #2C3E50;
+    align: 'center';
+    width: 20%;
+}
+
+.AboutText{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.AboutWhy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.AboutNumber{
+    padding: 10px;
+    font-size: 3rem;
+}

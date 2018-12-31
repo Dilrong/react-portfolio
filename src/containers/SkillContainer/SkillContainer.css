@@ -1,0 +1,44 @@
+.SkillContainer{
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+}
+
+.SkillTitle{
+    color: #2C3E50;
+    font-size: 3rem;
+    font-style: bold;
+    margin: 10px;
+}
+
+.SkillIcon{
+    margin: 50px;
+}
+
+.OverlayContainer{
+    position: relative;
+}
+
+.OverlayContainer:hover .SkillOverlay{
+    opacity: 1;
+}
+
+.SkillOverlay{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.FrontContainer{
+    display: flex;
+    justify-content: space-around;
+}
