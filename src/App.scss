@@ -221,3 +221,48 @@ footer{
     background-color: $main-color;
     color: white;
 }
+
+
+@media screen and (max-width:768px) {
+    .stack .stack__container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 95px;
+    }
+
+    .stack .stack__container .stack__card{
+        margin: 20px;
+    }
+
+    .project .project__container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 95px;
+    }
+
+    .project .project__container .project__card{
+        margin: 20px;
+    }
+
+    .contact .contact__container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 95px;
+    }
+
+    .contact .contact__container img{
+        margin: 20px;
+    }
+}
