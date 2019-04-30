@@ -20,9 +20,9 @@ class App extends Component {
         저는 그런 사람이 되기 위해서 수 많은 경험과 지식을 습득하고 있는 개발자입니다.<br/>
         </h3>
         <div className="about__container">
-          <h3><span className="about__strong">500</span><br/>권의 책을 읽었습니다.</h3>
-          <h3><span className="about__strong">10</span><br/>프로젝트 경험이 있습니다.</h3>
-          <h3><span className="about__strong">2</span><br/>창업경험이 있습니다.</h3>
+          <h3><span className="about__strong">3</span><br/>매주 평균 3권의 책을 읽습니다.</h3>
+          <h3><span className="about__strong">2</span><br/>번의 창업경험이 있습니다.</h3>
+          <h3><span className="about__strong">1</span><br/>매일 블로그에 1개의 글을 포스팅합니다.</h3>
         </div>
       </section>
       <section className="stack">
