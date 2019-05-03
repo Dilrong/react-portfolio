@@ -138,7 +138,7 @@ class App extends Component {
         <div className="contact__container">
           <a href="https://dilrong.blog.me/"><img alt="blogger" src="/images/img_blogger_logo.png"/></a>
           <a href="https://github.com/dilrong"><img alt="github" src="/images/img_github_logo.png"/></a>
-          <a href="/"><img alt="document" src="/images/img_document.png"/></a>
+          <a href="https://s3.ap-northeast-2.amazonaws.com/portfolio.dilrong.com/hakseongLee-Resume.docx"><img alt="document" src="/images/img_document.png"/></a>
         </div>
         <span className="contact__mail"><b>Email</b><br/>dilrong@dilrong.com</span>
       </section>
